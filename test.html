@@ -7,22 +7,6 @@
 </head>
 <body style ='margin: 0; background-color: #000000;'>
     <canvas id="myCanvas" style="border:none"></canvas>
-    <script>
-        // Get the canvas element
-        var canvas = document.getElementById('myCanvas');
-        var ctx = canvas.getContext('2d');
-
-        window.onresize = function() {
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
-        }
-        window.onresize();
-
-        // Draw a rectangle
-        ctx.fillStyle = "#000000";
-        ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-        console.log('ok');
-    </script>
 </body>
 </html>
+<script src="main.js"></script>
